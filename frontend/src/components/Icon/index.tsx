@@ -1,9 +1,9 @@
 import React from "react";
 import ButtonIcon from "./ButtonIcon";
 import DescIcon from "./DescIcon";
+import ChannelIcon from "./CannelIcon";
 import { BasicProps } from "types";
 import { SvgEnum, svgList } from "assets/svg";
-
 import "./Icon.scss";
 
 export type IconProps = BasicProps & {
@@ -23,4 +23,4 @@ const Icon = ({ className, children, type }: IconProps) => {
 };
 
 export default Icon;
-export { ButtonIcon, DescIcon };
+export { ButtonIcon, DescIcon, ChannelIcon };
